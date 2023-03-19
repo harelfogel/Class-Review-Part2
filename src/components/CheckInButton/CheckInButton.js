@@ -1,14 +1,17 @@
-// components/CheckInButton/CheckInButton.js
-
-import React from 'react';
+import React, { useState } from 'react';
 import './CheckInButton.css';
 
 const CheckInButton = ({ isCheckedIn }) => {
-  const buttonClass = isCheckedIn ? 'checked' : 'not-checked';
+  const [checkedIn, setCheckedIn] = useState(isCheckedIn);
+  const buttonClass = checkedIn ? 'checked' : 'not-checked';
+
+  const handleClick = () => {
+    setCheckedIn(!checkedIn);
+  };
 
   return (
-    <button className={`check-in-button ${buttonClass}`}>
-      {isCheckedIn ? 'Checked' : 'Check in'}
+    <button className={`check-in-button ${buttonClass}`} onClick={handleClick}>
+      {checkedIn ? 'Checked' : 'Check in'}
     </button>
   );
 };
