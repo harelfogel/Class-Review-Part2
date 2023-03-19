@@ -23,7 +23,8 @@
 }
 
 .sidebar-section:not(:first-child) {
-  border-top: 1px solid #aca6aa;
+  border-top: 1px solid #F3F3F3
+  ;
 }
 
 .sidebar-section:first-child {
@@ -202,8 +203,8 @@
     font-family: Roboto, sans-serif;
     font-weight: bold;
     font-size: 14px;
-    line-height: 21px;
-    margin-left: 28px;
+    line-height: 10px;
+    margin-left: 30px;
     white-space: nowrap;
   }
   
@@ -215,11 +216,10 @@
   }
   
   .search-input {
-    padding-right: 25px; 
     border: 1px solid #b2b1b1;
     border-radius: 4px;
     height: 30px;
-    padding: 2px;
+    padding-right: 7px;
     background-color:#F6F6F6 ;
   }
   
@@ -247,6 +247,22 @@
     align-items: center;
     padding: 8px 0px;
   }
+
+  /* Add these styles */
+.search-wrapper {
+  position: relative;
+}
+
+.suggestions-list {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  background-color: #fff;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  /* Add other styles for the suggestions list */
+}
   
   
   

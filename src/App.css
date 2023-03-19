@@ -11,10 +11,10 @@
 }
 
 .dashboard {
-  width: 75%;
+  max-width:76%;
   transition: all 0.3s ease;
   position: absolute;
-  z-index: 1;
+  /* z-index: 1; */
 }
 
 .dashboard-full {
@@ -26,7 +26,7 @@
 }
 
 .sidebar {
-  width: 25%;
+  width: 24.5%;
   transition: all 0.3s ease;
   position: absolute;
   right: 0;
