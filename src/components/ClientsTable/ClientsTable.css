@@ -1,0 +1,28 @@
+/* ClientsTable.css */
+
+.clients-table {
+    display: flex;
+    flex-direction: column;
+    width: 15px;
+    height: 15px;
+    padding: 1rem;
+
+  }
+  
+  .client-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .client-row img {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .client-row span {
+    margin-right: 50px;
+  }
+  

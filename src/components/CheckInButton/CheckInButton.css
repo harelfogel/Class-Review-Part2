@@ -1,0 +1,19 @@
+
+.check-in-button {
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .checked {
+    background-color: #FFFFFF;
+    color: #00A835;
+  }
+  
+  .not-checked {
+    background-color: #00A835;
+    color: #FFFFFF;
+  }
+  

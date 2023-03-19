@@ -1,0 +1,34 @@
+.App {
+  display: flex;
+  justify-content: flex-start;
+  min-height: 100vh;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f8f8f8;
+  position: relative;
+}
+
+.dashboard {
+  width: 75%;
+  transition: all 0.3s ease;
+  position: absolute;
+  z-index: 1;
+}
+
+.dashboard-full {
+  width: 100%;
+}
+
+.dashboard-shadow {
+  filter: brightness(50%);
+}
+
+.sidebar {
+  width: 25%;
+  transition: all 0.3s ease;
+  position: absolute;
+  right: 0;
+  z-index: 2;
+}

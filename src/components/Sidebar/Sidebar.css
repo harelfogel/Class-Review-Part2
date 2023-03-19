@@ -1,0 +1,256 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  background-color: #fff;
+  border-left: 1px solid #331818;
+}
+
+.sidebar-section {
+  display: flex;
+  flex-direction: row;
+  padding-top: 20px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.section-container {
+  display: flex;
+  align-items: center;
+}
+
+.sidebar-section:not(:first-child) {
+  border-top: 1px solid #aca6aa;
+}
+
+.sidebar-section:first-child {
+  flex-grow: 1;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.sidebar-section:nth-child(2) {
+  height: 120px;
+  padding-bottom: 2px;
+}
+
+.sidebar-section:nth-child(3) {
+  height: 80px;
+  padding-top: 8px;
+}
+
+.sidebar-section:last-child {
+  flex-grow: 2;
+  padding-bottom: 40px;
+}
+  
+  .edit-icon {
+    margin-left: 22.8px;
+    margin-top: 14.8px;
+  }
+  
+  .edit-container {
+    position: absolute;
+    top: 14.8px;
+  }
+  
+  .pencil-icon {
+    width: 18px;
+    height: 18px;
+    margin-left: 22.8px;
+    margin-top: 0.2px;
+  }
+  
+  .edit-text {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    margin-left: 5.8px;
+  }
+
+  .calendar-delete-icon {
+    width: 19.2px;
+    height: 20px;
+    margin-left: 17px;
+  }
+  
+  .cancel-class-text {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    color: #FF0B37;
+    margin-left: 9px;
+  }
+
+  .elipse-container {
+    position: absolute;
+    top: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .elipse-icon {
+    width: 70px;
+    height: 70px;
+  }
+  
+  .barbell-icon {
+    position: absolute;
+    width: 43.44px;
+    height: 43.47px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .workout-headline {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: bold; 
+    font-size: 17px;
+    line-height: 21px;
+    text-align: center;
+    margin-top: 10px; /* Adjust the space between the ellipse and the headline */
+    position: absolute;
+    transform: translateX(-50%);
+    white-space: nowrap; /* Prevent wrapping to a new line */
+    text-overflow: ellipsis; 
+    max-width: 100%; 
+  }
+
+  .column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+  }
+  
+  .left-column .personal-trainer {
+    width: 25px;
+    height: 27px;
+  }
+  
+.left-column .trainer-name,
+.middle-column .start-time,
+.right-column .participants {
+  font-family: Roboto, sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.left-column .trainer-title,
+.middle-column .start-time-label,
+.right-column .participants-label {
+  font-family: Roboto, sans-serif;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  margin-top: 5px;
+}
+  
+  .middle-column .clock {
+    width: 27px;
+    height: 27px;
+  }
+  
+  .right-column .full-tank {
+    width: 27px;
+    height: 27px;
+  }
+
+  .you-should-know-container {
+    margin-left: 22.8px;
+  }
+  
+  .you-should-know {
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 21px;
+    margin-top: 1px;
+    white-space: nowrap;
+  }
+  
+  .debt-info {
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 15.23px;
+    color: #000000;
+    margin-top: 40px;
+    max-width: 300px;
+    white-space: normal;
+  }
+  
+  .participants-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .participants-header {
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 21px;
+    margin-left: 22.8px;
+    white-space: nowrap;
+  }
+  
+  .search-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding-right: 9px;
+  }
+  
+  .search-input {
+    padding-right: 25px; 
+    border: 1px solid #b2b1b1;
+    border-radius: 4px;
+    height: 30px;
+    padding: 2px;
+    background-color:#F6F6F6 ;
+  }
+  
+  .plus-icon-container {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .plus-icon {
+    width: 14px;
+    height: 14px;
+    cursor: pointer;
+  }
+
+  .clients-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+  }
+  
+  .client-row {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+  }
+  
+  
+  
+  
+
+  
+  
