@@ -1,28 +1,67 @@
-/* ClientsTable.css */
+.table-wrapper {
+  position: relative;
+  right: 280px;
+}
 
 .clients-table {
     display: flex;
     flex-direction: column;
-    width: 15px;
-    height: 15px;
-    padding: 1rem;
+    width: 40px;
+    height: 5px;
+    padding-top: 3rem;
 
   }
   
   .client-row {
     display: flex;
     align-items: center;
-    margin-bottom: 10px;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 18px;
+    white-space: nowrap;
+    text-align: left;
+    vertical-align: top;
   }
   
-  .client-row img {
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    margin-right: 10px;
+  
+  .client-name {
+    flex-grow: 1;
+    margin-right: 60px;
+    min-width: 70px;  
+  }
+  
+
+  .client-row .client-image {
+    margin-right: 7px;
+    width: 30px;
+    height: 30px;
   }
   
   .client-row span {
-    margin-right: 50px;
+    margin-right: 90px;
   }
+
+  .check-in-button-container {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .whatsapp-icon-container {
+    margin-left: 18px;
+  }
+  
+  .whatsapp-icon,
+  .trash-icon {
+    width: 18px; 
+    height: 19px;
+    padding-right: 0.2rem;
+    
+  }
+  
+  .trash-icon {
+    margin-right: 17px;
+  }
+  
   

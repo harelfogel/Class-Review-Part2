@@ -1,19 +1,20 @@
-
 .check-in-button {
-    padding: 5px 10px;
-    border-radius: 3px;
-    font-weight: bold;
-    border: none;
-    cursor: pointer;
-  }
-  
-  .checked {
-    background-color: #FFFFFF;
-    color: #00A835;
-  }
-  
-  .not-checked {
-    background-color: #00A835;
-    color: #FFFFFF;
-  }
-  
+  background-color: #3DBA6D;
+  color: #FFFFFF;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300; 
+  font-size: 13px;
+  line-height: 14px;
+  padding: 5px 12px;
+  border-radius: 2px;
+  border: none;
+  cursor: pointer;
+  white-space: nowrap; /* Prevents the text from wrapping to the next line */
+  text-align: left;
+  vertical-align: top;
+}
+
+.checked-in {
+  background-color: #FFFFFF;
+  color: #3DBA6D;
+}
