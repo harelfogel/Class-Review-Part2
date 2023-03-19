@@ -203,7 +203,7 @@
     font-weight: bold;
     font-size: 14px;
     line-height: 21px;
-    margin-left: 22.8px;
+    margin-left: 28px;
     white-space: nowrap;
   }
   
@@ -211,7 +211,7 @@
     display: flex;
     align-items: center;
     position: relative;
-    padding-right: 9px;
+    margin-left: 2rem;
   }
   
   .search-input {
@@ -239,13 +239,13 @@
   .clients-table {
     width: 100%;
     border-collapse: collapse;
-    margin-top: 15px;
+    margin-top: 12px;
   }
   
   .client-row {
     display: flex;
     align-items: center;
-    padding: 10px 0;
+    padding: 8px 0px;
   }
   
   
