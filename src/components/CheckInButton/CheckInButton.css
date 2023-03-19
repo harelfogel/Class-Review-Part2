@@ -14,7 +14,11 @@
   vertical-align: top;
 }
 
-.checked-in {
+.checked {
   background-color: #FFFFFF;
   color: #3DBA6D;
+  border: 1px solid #3DBA6D;
 }
+
+
+

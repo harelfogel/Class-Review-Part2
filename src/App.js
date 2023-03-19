@@ -10,14 +10,19 @@ function App() {
     setShowSidebar(!showSidebar);
   };
 
+  const handleOutsideClick = () => {
+    setShowSidebar(false);
+  };
+
   return (
     <div className="App">
       <Dashboard
         shadow={showSidebar}
-        onClick={showSidebar ? null : handleSidebarClick}
+        onClick={handleSidebarClick}
         fullSize={!showSidebar}
+        onOutsideClick={handleOutsideClick}
       />
-      {showSidebar && <Sidebar onClick={handleSidebarClick} />}
+       {showSidebar && <Sidebar onClick={handleSidebarClick} />}
     </div>
   );
 }
