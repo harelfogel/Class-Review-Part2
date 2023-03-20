@@ -4,9 +4,9 @@
   font-family: 'Roboto', sans-serif;
   font-weight: 300; 
   font-size: 13px;
-  line-height: 14px;
-  padding: 5px 12px;
-  border-radius: 2px;
+  line-height: 0.2rem;
+  padding: 0.8rem 1.2rem;
+  border-radius: 0.1rem;
   border: none;
   cursor: pointer;
   white-space: nowrap; /* Prevents the text from wrapping to the next line */
