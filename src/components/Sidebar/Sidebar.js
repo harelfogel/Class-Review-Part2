@@ -59,7 +59,7 @@ const Sidebar = (props) => {
   };
 
   return (
-    <div className="sidebar">
+    <div  className={`sidebar ${props.visible ? 'sidebar-visible' : ''}`} >
       <div className="sidebar-section">
         <div className="section-container">
           <img className="pencil-icon" src={Pencil} alt="Pencil icon" />
