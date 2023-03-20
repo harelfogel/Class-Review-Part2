@@ -24,7 +24,7 @@ function App() {
       />
       <Sidebar
         onClick={handleSidebarClick}
-        visible={showSidebar} /* Add this prop */
+        visible={showSidebar} 
       />
     </div>
   );

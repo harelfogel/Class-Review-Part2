@@ -10,7 +10,6 @@ const Dashboard = ({ onClick, onOutsideClick, shadow, fullSize }) => {
       }`}
       onClick={shadow ? onOutsideClick : onClick}
     >
-      {/* Add dashboard content here */}
     </div>
   );
 };
