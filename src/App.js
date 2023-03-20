@@ -22,7 +22,10 @@ function App() {
         fullSize={!showSidebar}
         onOutsideClick={handleOutsideClick}
       />
-       {showSidebar && <Sidebar onClick={handleSidebarClick} />}
+      <Sidebar
+        onClick={handleSidebarClick}
+        visible={showSidebar} /* Add this prop */
+      />
     </div>
   );
 }
